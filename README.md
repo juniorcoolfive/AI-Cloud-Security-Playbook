@@ -6,6 +6,27 @@ Outlines your mission to secure AI and cloud environments, aligned with Tesla XA
 
 📁 Folder Structure
 Organized for clarity: detection logic, threat models, automation scripts, and resources.
+## 📁 Repository Contents
+
+### detection-logic/
+- **elastic-rules/**: Contains detection rules for AI-related threats using Elastic Stack.
+  - `unusual_ai_model_access.yml`: Detects unauthorized access to AI model files (`*.pt`) by unexpected users or processes.
+- **linux-threats/**: Scripts for detecting suspicious activity on Linux systems.
+  - `suspicious_sudo.sh`: Flags suspicious `sudo` usage in `/var/log/auth.log`, excluding known admin users.
+
+### threat-models/
+- **mitre-atlas/**: Threat models based on MITRE’s AI Threat Matrix.
+- **adversarial-ml/**: Research and detection logic for adversarial machine learning attacks.
+
+### automation/
+- **soar-xdr-scripts/**: Python scripts for automating incident response and detection.
+- **elastic-workflows/**: Automation workflows using Elastic Stack.
+
+### resources/
+- **research-papers/**: Key papers from Tesla, OpenAI, Anthropic, and others.
+- **cloud-labs/**: Labs and exercises for AWS, Azure, and GCP security.
+
+---
 
 🧠 Learning Objectives
 Focuses on Elastic Stack, Linux internals, cloud IAM/logging, adversarial ML, and SOAR/XDR.
