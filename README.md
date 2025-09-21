@@ -6,7 +6,7 @@ Outlines your mission to secure AI and cloud environments, aligned with Tesla XA
 
 📁 Folder Structure
 Organized for clarity: detection logic, threat models, automation scripts, and resources.
-## 📁 Repository Contents
+##  Repository Contents
 
 ### detection-logic/
 - **elastic-rules/**: Contains detection rules for AI-related threats using Elastic Stack.
